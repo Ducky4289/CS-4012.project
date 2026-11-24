@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="em">
+    <head>
+        <meta charset="UTF- 8">
+        <title>Welcome to Travel with Ul</title>
+        <link rel="stylesheet" type="text/css" href="">
+    </head>
+    <body>
+        <header class="banner">
+            <h1>the most popular destinations at the tip of your fingers</h1>
+            <p>Darragh Casey</p>
+        </header>
+       
+       <div class="layout"> 
+
+        <aside class="sidebar">
+            <a href="index.html"><img src="images/logo.png" alt="Travel with Ul logo"></a>
+           <nav class="sidebar-nav">    
+            <ul>
+                <li><a href="darragh.html">no.1</a></li>
+                <li><a href="alexandr.html">no.2</a></li>
+                <li><a href="jack.html">no.3</a></li>
+                <li><a href="khamis.html">no.4</a></li>
+            </ul>
+        </aside>
+        
+
+        <main class="content">
+           <h1>Dashboard</h1>
+           <p>Welcome to your travel dashboard!</p>
+           
+            <h2>Welcome to Travel with Ul</h2>
+            <p>Travel with Ul is a travel website that provides information about the most popular destinations around the world. Whether you're looking for a relaxing beach vacation, an adventurous hiking trip, or a cultural city experience, we've got you covered. Our team of travel experts has curated a list of the top destinations to help you plan your next adventure.</p>
+            <p>Explore our website to find detailed guides, travel tips, and recommendations for each destination. From hidden gems to must-see attractions, we aim to make your travel planning as easy and enjoyable as possible.</p> 
+    </body>
+</html>
