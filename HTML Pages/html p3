@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plan your trip!</title>
+    <link rel="stylesheet" type="text/css" href="">
+</head> 
+
+<body>
+
+    <header class="banner">
+        <h1>Plan your trip in syle</h1>
+        <p> Jack Dempsey </p>
+    </header>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="darragh.html">no.1</a></li>
+        <li><a href="alexandr.html">no.2</a></li>
+        <li><a href="jack.html">no.3</a></li>
+        <li><a href="khamis.html">no.4</a></li>
+    </ul>
+</nav>
+
+<main class="content">
+
+    <section>
+        <h2></h2>
+        <p>
+            
+        </p>
+    </section>
+</main>
+
