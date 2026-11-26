@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews and Ratings</title>
+    <link rel="stylesheet" href="../Css/khamis.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Travel Guide</h1>
+
+        <nav>
+            <a href="darragh.html">Home</a>
+            <a href="alexandr.html">Explore</a>
+            <a href="jack.html">Planning</a>
+            <a href="khamis.html">Reviews</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Reviews and Ratings</h2>
+            <p>Welcome to our reviews page. Here you can find opinions from people who have visited different places. Their reviews can help you decide where to travel.</p>
+            <p>If you have travelled somewhere, you can also share your experience with other people.</p>
+        </section>
+
+        <section>
+            <h2>Popular Destinations</h2>
+
+            <article>
+                <h3>Zanzibar</h3>
+                <img src="C:\Users\Khamis Simba\Desktop\html project\Zanzibar.jpg" alt="Beach in Zanzibar" width="250">
+                <p>Rating: 4.9/5</p>
+                <p>Zanzibar is famous for its beaches and clear water. It is a good place for people who want to relax.</p>
+            </article>
+
+            <article>
+                <h3>Paris</h3>
+                <img src="C:\Users\Khamis Simba\Desktop\html project\Eiffel tower.jpg" alt="Eiffel Tower in Paris" width="250">
+                <p>Rating: 4.8/5</p>
+                <p>Paris has many famous places to visit, including the Eiffel Tower. It is also known for its food and culture.</p>
+            </article>
+
+            <article>
+                <h3>Bali</h3>
+                <img src="C:\Users\Khamis Simba\Desktop\html project\Bali.jpg" alt="Beach in Bali" width="250">
+                <p>Rating: 4.7/5</p>
+                <p>Bali is popular for its beaches, nature and beautiful scenery.</p>
+            </article>
+
+            <article>
+                <h3>Dubai</h3>
+                <img src="C:\Users\Khamis Simba\Desktop\html project\Dubai.jpg" alt="Buildings in Dubai" width="250">
+                <p>Rating: 4.6/5</p>
+                <p>Dubai has many modern buildings, shopping centres and places for tourists to visit.</p>
+            </article>
+
+        </section>
+
+        <section>
+            <h2>Traveller Reviews</h2>
+
+            <article>
+                <h3>Daniel Mbuba</h3>
+                <p>Visited: Zanzibar</p>
+                <p>Rating: 5/5</p>
+                <p>"I had a great time in Zanzibar. The beaches were beautiful and I really enjoyed the trip."</p>
+                <p>Date: 12 October 2026</p>
+            </article>
+
+            <article>
+                <h3>Henrique Riquelme</h3>
+                <p>Visited: Paris</p>
+                <p>Rating: 4/5</p>
+                <p>"Paris was a very nice place. I enjoyed visiting the Eiffel Tower and trying the local food."</p>
+                <p>Date: 20 September 2026</p>
+            </article>
+
+            <article>
+                <h3>Michael Brown</h3>
+                <p>Visited: Bali</p>
+                <p>Rating: 5/5</p>
+                <p>"I enjoyed my holiday in Bali. The scenery was amazing and there were many interesting places to visit."</p>
+                <p>Date: 15 August 2026</p>
+            </article>
+
+        </section>
+
+        <section>
+            <h2>Write a Review</h2>
+            <p>Have you visited any of these places? You can share your experience below.</p>
+
+            <form action="#" method="post">
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="destination">Destination:</label><br>
+                <select id="destination" name="destination" required>
+                    <option value="">Choose a destination</option>
+                    <option value="zanzibar">Zanzibar</option>
+                    <option value="paris">Paris</option>
+                    <option value="bali">Bali</option>
+                    <option value="dubai">Dubai</option>
+                </select>
+                <br><br>
+
+                <p>How would you rate your experience?</p>
+
+                <input type="radio" id="rating1" name="rating" value="1" required>
+                <label for="rating1">1</label>
+
+                <input type="radio" id="rating2" name="rating" value="2">
+                <label for="rating2">2</label>
+
+                <input type="radio" id="rating3" name="rating" value="3">
+                <label for="rating3">3</label>
+
+                <input type="radio" id="rating4" name="rating" value="4">
+                <label for="rating4">4</label>
+
+                <input type="radio" id="rating5" name="rating" value="5">
+                <label for="rating5">5</label>
+
+                <br><br>
+
+                <label for="review">Your Review:</label><br>
+                <textarea id="review" name="review" rows="5" cols="35" required></textarea>
+                <br><br>
+
+                <button type="submit">Submit Review</button>
+
+           
