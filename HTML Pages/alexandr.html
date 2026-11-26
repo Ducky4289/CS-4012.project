@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UL Travel - Explore</title>
+        <link rel="stylesheet" href="../Css/alexandr.css">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="darragh.html">Home</a></li>
+                    <li><a href="alexandr.html">Explore</a></li>
+                    <li><a href="jack.html">Planning</a></li>
+                    <li><a href="khamis.html">Reviews</a></li>
+                </ul>
+            </nav>
+            <audio id="sea" src="media/sea.mp3" loop></audio>
+
+            <button id="soundButton" onclick="toggleSound()">
+                🔇 Sound off
+            </button>
+        </header>
+
+        <main>
+            <h1>Explore Destinations</h1>
+            <p>Explore some popular places to visit.</p>
+
+            <!-- Destination cards -->
+            <div class="destinations">
+                <article class="card" tabindex="0">
+                    <img src="images/spain.jpg" alt="Barcelona, Spain">
+                    <h2>Spain</h2>
+                    <div class="info">
+                        <p>Spain is known for its sunny beaches, football and delicious food. You can visit Barcelona or enjoy a holiday by the sea.</p>
+                        <p>Capital: Madrid</p>
+                        <video src="media/spain.mp4" controls preload="none" poster="images/spain.jpg" aria-label="Video of Spain"></video>
+                    </div>
+                </article>
+
+                <article class="card" tabindex="0">
+                    <img src="images/egypt.jpg" alt="Pyramids of Giza, Egypt">
+                    <h2>Egypt</h2>
+                    <div class="info">
+                        <p>Egypt is famous for its ancient pyramids, deserts and the River Nile. The Red Sea is also a great place for diving.</p>
+                        <p>Capital: Cairo</p>
+                        <video src="media/egypt.mp4" controls preload="none" poster="images/egypt.jpg" aria-label="Video of Egypt"></video>
+                    </div>
+                </article>
+
+                <article class="card" tabindex="0">
+                    <img src="images/italy.jpg" alt="Canal in Venice, Italy">
+                    <h2>Italy</h2>
+                    <div class="info">
+                        <p>Italy is a great place to enjoy pizza, pasta and historic buildings. Visit the Colosseum in Rome or the canals of Venice.</p>
+                        <p>Capital: Rome</p>
+                        <video src="media/italy.mp4" controls preload="none" poster="images/italy.jpg" aria-label="Video of Italy"></video>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <script>
+            function toggleSound() {
+                var sea = document.getElementById("sea");
+                var button = document.getElementById("soundButton");
+
+                sea.volume = 0.25;
+
+                if (sea.paused) {
+                    sea.play();
+                    button.textContent = "🔊 Sound on";
+                } else {
+                    sea.pause();
+                    button.textContent = "🔇 Sound off";
+                }
+            }
+        </script>
+    </body>
+</html>
