@@ -1,6 +1,8 @@
 h1   { color: black; 
-       background-color: green;
-       margin: 10px; }
+       background-color: lightgreen;
+       margin: 10px;
+       text-align: center;
+       border-radius: 10px;}
 
 Title { color: black; 
         background-color: lightgreen;
@@ -13,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: honeydew; 
+    text-align: center;
 
 }        
 
@@ -34,8 +37,44 @@ body {
        padding: 0;
 }
 
-content {
+.content {
        flex: 1;
        padding: 10px;
        box-sizing: border-box;
 }
+
+table { width: 100%;
+        border-collapse: collapse; 
+        background: white; 
+}
+
+th, td { padding: 10px;
+        text-align: left;
+         border-bottom: 1px solid #ccc; 
+}
+
+th { background-color: darkgreen; color: white; }
+
+.sidebar img {
+    width: 150px;
+    height: auto;    
+}
+
+.sidebar li {
+    margin-bottom: 20px;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 10px;
+    background-color: white;
+    color: darkgreen;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+
+
+
+
+
